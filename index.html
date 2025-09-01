@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Anali Catering & Eventos — Bodas & Eventos</title>
+
+  <!-- Tipografía elegante (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Estilos separados -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Logo Anali" class="logo-img">
+        <div>
+          <h1 class="brand-title">Analí Catering & Eventos</h1>
+          <p class="brand-sub">Bodas inolvidables · Experiencia & detalle</p>
+        </div>
+      </div>
+
+      <nav class="nav" id="mainNav">
+        <ul>
+          <li><a href="#quienes">Nosotros</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#decor">Decoración</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#contacto" class="cta">Reservar</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botón hamburguesa para móviles -->
+      <button id="navToggle" class="nav-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner container">
+      <div class="hero-left">
+        <h2 class="hero-title">Hacemos que su boda sea tan única como su historia</h2>
+        <p class="hero-desc">
+          Combinamos profesionalismo e innovación para crear experiencias a la medida — desde la degustación hasta el último baile.
+        </p>
+        <div class="hero-ctas">
+          <a href="#contacto" class="btn primary">Solicitar cotización</a>
+          <a href="#galeria" class="btn ghost">Ver galería</a>
+        </div>
+        
+      </div>
+
+      <div class="hero-right">
+        <!-- tarjetas estilo carta con imágenes y animación -->
+        <div class="card card-top img-card">
+          <img src="assets/image.png" alt="Toldo arquitectónico">
+          <div class="card-body">
+            <h4>Toldos arquitectónicos</h4>
+            <p>Diseños imponentes, iluminación cielo estrellado y acabados luxury.</p>
+          </div>
+        </div>
+
+        <div class="card card-bottom img-card">
+          <img src="assets/menaje.png" alt="Montaje mesa">
+          <div class="card-body">
+            <h4>Mesa & Menaje</h4>
+            <p>Menaje en cristal, loza o ratán según su elección.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave" aria-hidden="true"></div>
+  </section>
+
+  <main>
+    <!-- QUIENES SOMOS -->
+    <section id="quienes" class="section container reveal">
+      <div class="two-col">
+        <div>
+          <h3>Quiénes somos</h3>
+          <p>
+            Analí Catering & Eventos es un equipo con amplia experiencia en la organización de bodas, donde cada detalle es pensado para crear momentos memorables.
+            Nos especializamos en experiencias a medida, acompañando a los novios en todo el proceso para que vivan el día con tranquilidad.
+          </p>
+
+          <ul class="features">
+            <li>Atención personalizada</li>
+            <li>Degustaciones y pruebas de menú</li>
+            <li>Planos y coordinación integral</li>
+          </ul>
+        </div>
+
+        <div class="media-grid">
+          <img src="assets/q1.png" alt="Decoración floral" class="media-img">
+          <img src="assets/toldoarquitectonico.png" alt="Torta" class="media-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- AGENDA DE TRABAJO -->
+    <section id="agenda" class="section alt-bg reveal">
+      <div class="container">
+        <h3>Agenda de trabajo</h3>
+        <p class="lead">Planificación detallada para que su boda fluya tal como lo soñaron.</p>
+        <img src="assets/agenda.png" alt="" class="a-img"> 
+        <div class="steps-grid">
+        
+          <article class="step">
+            <h4>Producción & Planeamiento</h4>
+            <p>Definimos cada parte de la recepción junto a usted.</p>
+          </article>
+
+          <article class="step">
+            <h4>Prueba de mesa</h4>
+            <p>Personalice lo que compartirán sus invitados.</p>
+          </article>
+
+          <article class="step">
+            <h4>Degustación</h4>
+            <p>Menú y tragos: elija su selección preferida.</p>
+          </article>
+
+          <article class="step">
+            <h4>Plano de distribución</h4>
+            <p>Ubicación de invitados y estaciones pensadas para el flujo del evento.</p>
+          </article>
+
+          <article class="step">
+            <h4>Reuniones con equipo</h4>
+            <p>DJ, maestro de ceremonia y wedding planner elaboran el protocolo y timing.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUESTRO EQUIPO -->
+    <section id="equipo" class="section container reveal">
+      <h3>Nuestro equipo</h3>
+      <p class="lead">Profesionales dedicados para cada área del evento.</p>
+        <img src="assets/equipo.png" alt="equipo" class="a-img">
+      <div class="team-grid">
+        <!-- cada tarjeta usa imagen decorativa -->
+        <div class="team-card">
+          
+          <h5>Coordinador</h5>
+          <p>A cargo de la ejecución y servicio del evento.</p>
+        </div>
+
+        <div class="team-card">
+          
+          <h5>Chef & Cocina</h5>
+          <p>Chef principal y auxiliares.</p>
+        </div>
+
+        <div class="team-card">
+          
+          <h5>DJ profesional</h5>
+          <p>Repertorio y ambiente musical durante todo el evento.</p>
+        </div>
+
+        <div class="team-card">
+          
+          <h5>Seguridad</h5>
+          <p>2 agentes para garantizar la tranquilidad del evento.</p>
+        </div>
+
+        <div class="team-card">
+          
+          <h5>Maestro de ceremonias</h5>
+          <p>Protocolos y presentaciones.</p>
+        </div>
+
+        <div class="team-card">
+          
+          <h5>Técnicos</h5>
+          <p>Sonido y electricidad para cubrir 8 horas de servicio.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU Y MENUAJE -->
+    <section id="menu" class="section alt-bg reveal">
+      <div class="container">
+        <h3>Platos & Menaje</h3>
+        <p class="lead">Sabores pensados para enamorar — elija entremeses, fondo y acompañamientos.</p>
+
+        <div class="menu-grid">
+          <div class="menu-column">
+            <h4>Entremeses (ejemplos)</h4>
+            <ul class="menu-list">
+              <!-- lista larga resumida visualmente; el usuario tiene el detalle completo -->
+              <li>Brochetas de pollo a la hawaiana con salsa golf</li>
+              <li>Alitas Bouchet con salsa uchucuta</li>
+              <li>Tequeños de queso con guacamole</li>
+              <li>Causa de langostino con salsa golf al pisco</li>
+              <li>Shots de langostinos apanados en salsa de maracuyá</li>
+              <li>Mini cheeseburger con salsa golf</li>
+              <li>Ceviche de corvina • Pulpo al olivo</li>
+            </ul>
+
+            <img src="assets/entremeses.png" alt="Entrantes" class="menu-img">
+          </div>
+
+          <div class="menu-column">
+            <h4>Fondos (Aves / Cerdo / Res)</h4>
+            <ul class="menu-list">
+              <li>Enrollado de pollo con jamón y queso en salsa bechamel</li>
+              <li>Medallón de pavo en salsa Strogonoff</li>
+              <li>Cerdo empanizado en salsa agridulce</li>
+              <li>Asado de res en salsa de champiñones • Roast beef 3 pimientas</li>
+            </ul>
+
+            <h4>Acompañamientos</h4>
+            <p>Arroces, ensaladas y guarniciones personalizables (ej.: arroz con choclo, ensalada Waldorf, puré de camote, espárragos con tocineta).</p>
+
+            <img src="assets/fondos.png" alt="Plato de fondo" class="menu-img">
+          </div>
+        </div>
+
+        <div class="menaje">
+          <h4>Menaje</h4>
+          <p>Plato de sitio (cristal / loza / madera / ratán), cubiertos medallón, copas según selección y montaje especial para novios.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DECORACIÓN Y TOLDOS -->
+    <section id="decor" class="section container reveal">
+      <h3>Decoración & Toldos</h3>
+      <p class="lead">Vestimos su evento con estructuras elegantes y luces que transforman el espacio.</p>
+
+      <div class="decor-grid">
+        <div class="decor-card">
+          <img src="assets/entradatoldo.png" alt="Toldo entrada">
+          <h5>Entrada del toldo</h5>
+          <p>Arco floral, espejo o letrero de bienvenida y decoración frontal.</p>
+        </div>
+
+        <div class="decor-card">
+          <img src="assets/toldoarquitectonico.png" alt="Toldo central">
+          <h5>Toldo arquitectónico</h5>
+          <p>Estructura central 6m, organza, cielo estrellado, lámparas María Teresa y columnas iluminadas.</p>
+        </div>
+
+        <div class="decor-card">
+          <img src="assets/mobiliario.png" alt="Mesa de novios">
+          <h5>Mobiliario & arreglos</h5>
+          <p>Sillas acrílicas, mesas vestidas y centros de mesa con flores naturales por estación.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EQUIPO DE SONIDO Y TORTA -->
+    <section class="section alt-bg container reveal">
+      <div class="two-col">
+        <div>
+          <h3>Equipo de sonido</h3>
+          <p>DJ, mezcla y equipo profesional para un servicio de hasta 8 horas. Equipos: bajos, medios, mezclador, amplificador, micrófono inalámbrico y consola de DJ.</p>
+            <img class="eq-img" src="assets/sonido.png" alt="Equipo sonido">
+          <h3>La torta</h3>
+          <p>Maqueta 4 o 5 pisos + torta real de ½ kilo para los novios. Presentación y accesorios decorativos incluidos.</p>
+            <img class="eq-img" src="assets/torta.png" alt="Torta mesa">
+        </div>
+
+        
+      </div>
+    </section>
+
+    <!-- GALERÍA (masonry ligera) -->
+    <section id="galeria" class="section container reveal">
+      <h3>Galería</h3>
+      <p class="lead">Imágenes inspiradoras — haga clic para ampliar.</p>
+
+      <div class="gallery" id="gallery">
+        <!-- muchas imágenes para que puedas reemplazar por las tuyas -->
+        <img src="assets/g1.png" class="gallery-item">
+        <img src="assets/g2.png"  class="gallery-item">
+        <img src="assets/g3.png"  class="gallery-item">
+        <img src="assets/g4.png"  class="gallery-item">
+        <img src="assets/g5.png" class="gallery-item">
+        <img src="assets/g6.png"  class="gallery-item">
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="section container reveal">
+      <h3>Comentarios de novios felices</h3>
+      <div class="testimonials">
+        <blockquote class="testimonial">
+          "Muchas gracias Anali por tu tiempo, dedicación y servicio, quedamos muy contentos por ser parte de la mágica boda que nos organizaste 😊🤗🌹" — <strong>Anita y Alejandro</strong>
+        </blockquote>
+        <blockquote class="testimonial">
+          "Muchas gracias por su gran profesionalismo, son expertos en hacer sueños realidad, la paciencia, el respeto y sobre todo, el cariño con el que tratan a sus clientes, mi más sincera gratitud. Recomendado al 100%, son un éxito Anali y Luis. Muchas bendiciones ❤️👏🙌" — <strong>Rosmery y Armando</strong>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CONTACTO / RESERVA -->
+    <section id="contacto" class="section cta-section alt-bg">
+    <div class="container cta-inner reveal">
+        <div>
+        <h3>Listos para diseñar su boda</h3>
+        <p>Solicite una cotización o agende una degustación.</p>
+        <a href="tel:+51946026824" class="btn primary">Llamar ahora</a>
+        <a href="mailto:analimontalvanweddingplanner@outlook.com" class="btn ghost">Enviar correo</a>
+        </div>
+        <form class="contact-form" id="contactForm" aria-label="Formulario de contacto">
+        <input type="text" name="name" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <input type="tel" name="phone" placeholder="Teléfono / WhatsApp" required>
+        <textarea name="message" rows="4" placeholder="Cuéntanos sobre tu boda (fecha, invitados, estilo)"></textarea>
+        <button type="submit" class="btn primary">Solicitar información</button>
+        </form>
+    </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>© <span id="currentYear"></span> Analí Catering & Eventos — Todos los derechos reservados.</p>
+        <p>Facebook analicateringyeventos · Tel: +51 946 026 824 · <a href="mailto:analimontalvanweddingplanner@outlook.com">analimontalvanweddingplanner@outlook.com</a></p>
+      </div>
+
+      
+    </div>
+  </footer>
+
+  <!-- Lightbox para galería (se activa con JS) -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lightboxClose" class="lightbox-close" aria-label="Cerrar imagen">&times;</button>
+    <img src="assets/image.png" alt="Imagen ampliada" id="lightboxImg">
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <!-- Scripts separados -->
+  <script src="scripts.js" defer></script>
+  
+</body>
+</html>
